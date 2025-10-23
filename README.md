@@ -18,12 +18,13 @@ It loads Markdown (`.md`) documents, splits them into smaller chunks, stores the
 ---
 
 ## 📁 Project Structure
-
+```
 ├── data/ # Markdown files for embedding
 ├── chroma/ # Persisted Chroma vector database
 ├── .env # Contains GOOGLE_API_KEY
 ├── main.py # Document loader, splitter, and DB builder
 └── query.py # Query interface using Gemini + Chroma
+```
 
 ---
 
